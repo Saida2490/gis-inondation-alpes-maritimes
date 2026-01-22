@@ -22,6 +22,29 @@ All datasets come from official open data sources:
 - Administrative boundaries (communes): IGN / INSEE
 - Urban areas: CORINE Land Cover
 - Flood-prone areas: Flood Risk Atlas / PPRI (DREAL, data.gouv.fr)
+- ## Flood risk data
+
+Flood risk information is based on the **Territoire à Risque Important d’Inondation (TRI) – Nice** dataset, provided by French environmental authorities (DREAL / Ministry for Ecological Transition).
+
+The TRI dataset defines areas exposed to flooding according to regulatory flood risk scenarios and is commonly used as a reference for territorial flood risk assessment in France.
+
+### Selected flood scenario
+
+For this project, a **medium-frequency flood scenario** was selected.  
+This scenario represents flood events that are neither frequent nor extreme and is considered representative of major recent flood events that affected the Alpes-Maritimes, notably in 2015 and 2017.
+
+The selected layer corresponds to flood-prone areas represented as polygon surfaces, allowing a direct spatial comparison with urbanised areas.
+
+### Purpose and limitations
+
+The flood risk data are used to:
+- identify areas exposed to flooding within the study area,
+- intersect flood-prone zones with urbanised areas derived from OCS GE,
+- assess the exposure of built-up areas to flood risk.
+
+It should be noted that TRI datasets are primarily designed for regulatory and planning purposes.  
+As such, attribute information is intentionally limited, and the main analytical value lies in the spatial extent of flood-prone areas rather than in detailed hydraulic parameters.
+
 
 ## Methodology
 The analysis was conducted using QGIS and includes:
