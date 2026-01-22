@@ -30,6 +30,28 @@ The analysis was conducted using QGIS and includes:
 - Spatial intersection between urban areas and flood zones
 - Calculation of surfaces and exposure ratios
 - Production of thematic maps
+## Data selection & methodology update
+
+### Initial approach and limitations
+
+The initial analysis relied on the CORINE Land Cover (CLC) dataset to identify urban areas exposed to flood risk.
+However, during exploratory analysis, major inconsistencies were observed in highly urbanized coastal cities such as Cannes, Nice, Monaco and Menton.
+
+Due to its coarse spatial resolution (minimum mapping unit of 25 hectares), CORINE Land Cover significantly under-represents dense urban fabrics, especially in Mediterranean coastal contexts.
+As a result, key urban areas affected by recent flood events (notably in 2015 and 2017 in the Alpes-Maritimes) were either poorly represented or entirely missing.
+
+This dataset was therefore deemed unsuitable for an accurate assessment of urban exposure to flood risk at the departmental scale.
+
+### Methodological pivot
+
+To ensure a more realistic and fine-grained analysis, the project methodology was updated to use the **OCS GE (Occupation du Sol à Grande Échelle)** dataset provided by IGN.
+
+OCS GE offers a high spatial resolution (10 m) and a detailed classification of built-up areas, allowing for:
+- accurate representation of dense and discontinuous urban fabrics,
+- better alignment with real-world urban morphology,
+- more reliable intersection with flood risk zones.
+
+This methodological adjustment improves the robustness and relevance of the analysis, particularly for densely urbanized coastal territories such as the Alpes-Maritimes.
 
 ## Tools
 - QGIS
