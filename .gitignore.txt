@@ -1,0 +1,15 @@
+# QGIS / cache
+*.aux.xml
+*.qmd
+*.qgd
+*.qml~
+*.tmp
+*.bak
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw data folders (optional)
+data_raw/
